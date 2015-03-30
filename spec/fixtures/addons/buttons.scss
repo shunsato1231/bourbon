@@ -1,17 +1,17 @@
 @import "setup";
 
-#{$all-button-inputs} {
-  color: #ff0000;
+.all-buttons {
+  value: $all-buttons;
 }
 
-#{$all-button-inputs-active} {
-  color: #00ff00;
+.all-buttons-active {
+  value: $all-buttons-active;
 }
 
-#{$all-button-inputs-focus} {
-  color: #0000ff;
+.all-buttons-focus {
+  value: $all-buttons-focus;
 }
 
-#{$all-button-inputs-hover} {
-  color: #ff00ff;
+.all-buttons-hover {
+  value: $all-buttons-hover;
 }
